@@ -1,0 +1,15 @@
+<div class="m-4 d-flex justify-content-center">
+	<h1>Search Users</h1>
+	{{#if error}}
+	<span>{{error}}</span>
+	{{/if}}
+	<div class="">
+		<form class="form-inline mx-5 mt-2" method="POST" action="/user/search">
+			<div class="form-group">
+				<input type="text" name="id" class="form-control" placeholder="Search Users By ID">
+			</div>
+			<input type="submit" class="btn btn-primary mx-1" value="Search">
+		</form>
+	</div>
+
+</div>
