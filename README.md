@@ -2,7 +2,9 @@
 Simple user management app using Node.js and Redis
 
 ### Version
+```sh
 1.0.0
+```
 
 ## Usage
 
