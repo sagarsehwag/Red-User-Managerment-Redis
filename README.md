@@ -1,4 +1,4 @@
-# RedUsers
+# Red User Management
 Simple user management app using Node.js and Redis
 
 ### Version
